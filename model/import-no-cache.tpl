@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 	{{if .time}}"time"{{end}}
-    "admin-server/internal/pkg/globalkeys"
+    "greet/api/internal/pkg/globalkeys"
 	"github.com/Masterminds/squirrel"
 	"github.com/pkg/errors"
     {{if .containsPQ}}"github.com/lib/pq"{{end}}
